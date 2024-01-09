@@ -1,12 +1,20 @@
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.section-today {
+  padding-bottom: 1%;
+}
+
+.title-category {
+  padding-top: 2.5%;
+}
+
 .highlight {
   text-transform: uppercase;
   color: var(--pink);
   font-weight: bold;
-}
-
-.card {
-  border-radius: 10px;
-  position: relative;
 }
 
 .header-top-img {
@@ -14,46 +22,69 @@
   overflow: hidden;
 }
 
-.line-bottom {
-  bottom: 15;
-  width: 40%;
-}
-
 .container-text-top-image {
   color: white;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 
-.container-header-top-h1 {
-  bottom: 25;
+.inscription-top,
+.container-header-top-h1,
+.inscription-bottom-container {
   position: absolute;
 }
 
 .inscription-top {
-  position: absolute;
   top: 25;
   text-transform: uppercase;
+  font-weight: bold;
+
+  @media (max-width: 576px) {
+    top: 20;
+  }
+}
+
+.container-header-top-h1 {
+  bottom: 25;
+  @media (max-width: 576px) {
+    bottom: 10;
+  }
+}
+
+.content-header-top-h1 {
+  flex-direction: row;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 5em;
+}
+
+.content-header-top-h1 h1 {
+  height: 70%;
 }
 
 .inscription-bottom-container {
-  position: absolute;
-  bottom: 110;
+  bottom: 60;
+
+  @media (min-width: 578px) {
+    bottom: 90;
+  }
+
+  @media (min-width: 1200px) {
+    bottom: 100;
+  }
 }
 
 .inscription-bottom {
   display: flex;
+  width: 10em;
   flex-direction: row;
-}
-
-.inscription-bottom a {
   justify-content: space-between;
-}
+  padding-left: 0 !important;
 
-.inscription-a {
-  padding-left: 4em;
-}
+  @media (min-width: 1200px) {
+    width: 10em;
+  }
 
-.card img {
-  max-width: 101%;
-  max-height: 101%;
+  @media (min-width: 768px) {
+    width: 10em;
+  }
 }

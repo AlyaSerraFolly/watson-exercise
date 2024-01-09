@@ -26,7 +26,7 @@
       <section class="section-today">
         <div class="container">
           <div class="row">
-            <div class="col-12 header-top-img card">
+            <div class="col-12 nopadding header-top-img card card-header">
               <div class="container-text-top-image">
                 <a class="inscription-top">International</a>
                 <div class="inscription-bottom-container">
@@ -37,19 +37,57 @@
                   </div>
                 </div>
                 <div class="container-header-top-h1">
-                  <h1 class="header-top-h1">Actualité</h1>
-                  <a class="line-bottom">
-                    <img src="img/line.jpg" alt="line" />
-                  </a>
+                  <div class="content-header-top-h1">
+                    <h1 class="header-top-h1">Actualité</h1>
+                    <a class="line-bottom">
+                      <img src="img/line.png" alt="line" />
+                    </a>
+                  </div>
                 </div>
               </div>
-              <img src="img/header-img-poutine.jpg" alt="" />
+              <img
+                class="background-image"
+                src="img/header-img-poutine.jpg?as=webp&width=1000"
+                srcset="
+                  img/header-img-poutine.jpg?as=webp&width=375   375w,
+                  img/header-img-poutine.jpg?as=webp&width=576   576w,
+                  img/header-img-poutine.jpg?as=webp&width=768   768w,
+                  img/header-img-poutine.jpg?as=webp&width=1200 1200w
+                "
+                alt="image de poutine"
+              />
             </div>
+          </div>
+          <div class="col-12 title-category">
+            <h2>Dernière nouvelle</h2>
           </div>
         </div>
       </section>
-      <h2>Dernière nouvelle</h2>
-      <section class="section-lastnew"></section>
+      <section class="section-lastnew">
+        <div class="container">
+          <div class="row g-x">
+            <div class="col-3 border card card-small">
+              <div class="row">
+                <div class="col-12 nopadding">
+                  <img src="img/article_1.jpg" alt="" />
+                </div>
+                <div class="col-12">
+                  <div class="container-card-article">
+                    <div class="inscription-bottom">
+                      <a class="highlight">Russie</a>
+                      <a><img src="img/line-top.svg" alt="" /></a>
+                      <a class="inscription-a">Conflit Ukrainien</a>
+                    </div>
+                    <h2>le cerveau des tireurs ukrainiens</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 border card card-small"></div>
+            <div class="col-5 border card-medium">yay</div>
+          </div>
+        </div>
+      </section>
       <h2>International</h2>
       <section class="section-international"></section>
       <section class="section-switzerland"></section>

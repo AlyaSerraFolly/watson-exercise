@@ -41,8 +41,34 @@ video {
   vertical-align: middle;
 }
 
+main {
+  @media (max-width: 576px) {
+    margin: 5%;
+  }
+}
+
+a {
+  font-size: 13px;
+}
+
 h1 {
-  font-size: 55px;
+  font-size: 30px;
+  padding-top: 30px;
+
+  @media (min-width: 576px) {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+
+  @media (min-width: 577px) {
+    padding-top: 10px;
+    font-size: 45px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 55px;
+    padding-top: 0px;
+  }
 }
 
 /* ====================================
