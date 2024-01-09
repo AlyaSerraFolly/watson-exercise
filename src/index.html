@@ -26,7 +26,7 @@
       <section class="section-today">
         <div class="container">
           <div class="row">
-            <div class="col-12 nopadding header-top-img card card-header">
+            <div class="col-12 header-top-img card card-header nopadding">
               <div class="container-text-top-image">
                 <a class="inscription-top">International</a>
                 <div class="inscription-bottom-container">
@@ -59,19 +59,32 @@
             </div>
           </div>
           <div class="col-12 title-category">
-            <h2>Dernière nouvelle</h2>
+            <h2>Dernière nouvelles</h2>
           </div>
         </div>
       </section>
       <section class="section-lastnew">
         <div class="container">
-          <div class="row g-x">
-            <div class="col-3 border card card-small">
+          <div class="row article-spacement">
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 card card-small"
+            >
               <div class="row">
-                <div class="col-12 nopadding">
-                  <img src="img/article_1.jpg" alt="" />
+                <div
+                  class="col-4 col-sm-4 col-md-4 col-lg-12 col-xl-12 nopadding"
+                >
+                  <img
+                    src="img/article_1.jpg"
+                    srcset="
+                      img/article_1.jpg?as=webp&width=375   375w,
+                      img/article_1.jpg?as=webp&width=576   576w,
+                      img/article_1.jpg?as=webp&width=768   768w,
+                      img/article_1.jpg?as=webp&width=1200 1200w
+                    "
+                    alt=""
+                  />
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-sm-8 col-lg-12 col-xl-12 nopadding">
                   <div class="container-card-article">
                     <div class="inscription-bottom">
                       <a class="highlight">Russie</a>
@@ -79,12 +92,21 @@
                       <a class="inscription-a">Conflit Ukrainien</a>
                     </div>
                     <h2>le cerveau des tireurs ukrainiens</h2>
+                    <div class="container-bottom-icon">
+                      <a><img src="img/clock.svg" alt="temps" />6min</a>
+                      <a class="save-bubble"
+                        ><img src="img/bubble.svg" alt="temps" />7</a
+                      >
+                      <a class="save-icon"
+                        ><img src="img/save.svg" alt="temps"
+                      /></a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-3 border card card-small"></div>
-            <div class="col-5 border card-medium">yay</div>
+            <div class="col-5 border card card-medium">yay</div>
           </div>
         </div>
       </section>
