@@ -42,7 +42,7 @@ video {
 }
 
 main {
-  @media (max-width: 576px) {
+  @media (max-width: 575px) {
     margin: 5%;
   }
 }
@@ -52,14 +52,10 @@ a {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 20px;
   line-height: 97%;
 
   @media (min-width: 576px) {
-    font-size: 15px;
-  }
-
-  @media (min-width: 577px) {
     font-size: 16px;
   }
 
@@ -73,11 +69,6 @@ h1 {
   padding-top: 30px;
 
   @media (min-width: 576px) {
-    font-size: 30px;
-    padding-top: 30px;
-  }
-
-  @media (min-width: 577px) {
     padding-top: 10px;
     font-size: 45px;
   }

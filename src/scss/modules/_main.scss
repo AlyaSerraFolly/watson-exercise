@@ -24,7 +24,7 @@
 
 .container-text-top-image {
   color: white;
-  margin-left: 3%;
+  margin-left: 5%;
 }
 
 .inscription-top,
@@ -38,14 +38,14 @@
   text-transform: uppercase;
   font-weight: bold;
 
-  @media (max-width: 576px) {
+  @media (max-width: 575px) {
     top: 20;
   }
 }
 
 .container-header-top-h1 {
   bottom: 25;
-  @media (max-width: 576px) {
+  @media (max-width: 575px) {
     bottom: 10;
   }
 }
@@ -64,7 +64,7 @@
 .inscription-bottom-container {
   bottom: 60;
 
-  @media (min-width: 578px) {
+  @media (min-width: 576px) {
     bottom: 90;
   }
 
