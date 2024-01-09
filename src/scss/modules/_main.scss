@@ -1,0 +1,59 @@
+.highlight {
+  text-transform: uppercase;
+  color: var(--pink);
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 10px;
+  position: relative;
+}
+
+.header-top-img {
+  background-color: black;
+  overflow: hidden;
+}
+
+.line-bottom {
+  bottom: 15;
+  width: 40%;
+}
+
+.container-text-top-image {
+  color: white;
+  margin-left: 2%;
+}
+
+.container-header-top-h1 {
+  bottom: 25;
+  position: absolute;
+}
+
+.inscription-top {
+  position: absolute;
+  top: 25;
+  text-transform: uppercase;
+}
+
+.inscription-bottom-container {
+  position: absolute;
+  bottom: 110;
+}
+
+.inscription-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.inscription-bottom a {
+  justify-content: space-between;
+}
+
+.inscription-a {
+  padding-left: 4em;
+}
+
+.card img {
+  max-width: 101%;
+  max-height: 101%;
+}
